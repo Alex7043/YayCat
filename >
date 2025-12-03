@@ -1,0 +1,18 @@
+# 🐱 YayCat - Universal Game Helper
+
+![Version](https://img.shields.io/badge/version-3.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Lua](https://img.shields.io/badge/language-Lua-orange)
+
+Uma biblioteca Lua universal para auxílio em QUALQUER jogo! ESP, utilidades, automação e muito mais.
+
+## ⚡ Instalação Instantânea
+
+```lua
+-- Cole no seu executor
+local YayCat = loadstring(game:HttpGet("https://raw.githubusercontent.com/Alex7043/YayCat/main/YayCat.lua"))()
+
+-- Use sua chave pessoal
+YayCat.verifyKey("YayCatIsGood")
+
+-- Pronto! Pode usar todas funções
